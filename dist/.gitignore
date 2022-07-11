@@ -1,0 +1,4 @@
+*
+!.gitignore
+*.wasm
+*@HEAD.wasm.sha256

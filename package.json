@@ -1,0 +1,26 @@
+{
+  "name": "@example/project",
+  "version": "0.0.0",
+  "type": "module",
+  "main": "index.ts",
+  "workspace": true,
+  "devDependencies": {
+    "typescript":                              "^4.7",
+    "vite":                                    "2.9.14",
+    "@esbuild-plugins/node-globals-polyfill": "^0.1.1",
+    "@modyfi/vite-plugin-yaml":               "^1.0.2",
+    "@hackbg/fadroma":                        "workspace:*"
+  },
+  "dependencies": {
+    "@example/api":              "workspace:*",
+    "@fadroma/client-scrt-grpc": "workspace:*",
+    "@keplr-wallet/cosmos":      "^0.10.11",
+    "js-yaml":                   "^4.1.0"
+  },
+  "scripts": {
+    "fadroma":      "fadroma project.ts",
+    "vite":         "vite",
+    "vite:build":   "vite build",
+    "vite:preview": "vite preview"
+  }
+}
