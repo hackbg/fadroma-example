@@ -37,3 +37,9 @@ export class KV extends Fadroma.Client {
     return await this.execute('del')
   }
 }
+
+export class Schema extends Fadroma.Client {
+  async getOwnSchema () {
+    return await this.query('schema')
+  }
+}

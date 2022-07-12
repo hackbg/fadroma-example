@@ -6,6 +6,7 @@ members = [
   # Contract crates:
   "fadroma/examples/echo",
   "fadroma/examples/kv",
+  "schema-contract",
 ]
 
 # Release profile

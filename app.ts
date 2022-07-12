@@ -6,7 +6,7 @@ import echoTemplate      from './receipts/fadroma-devnet/uploads/fadroma-example
 import kvTemplate        from './receipts/fadroma-devnet/uploads/fadroma-example-kv@HEAD.wasm.json'
 import activeDeployment  from './receipts/fadroma-devnet/deployments/.active.yml?raw'
 import ADMIN             from './receipts/fadroma-devnet/identities/ADMIN.json'
-import { Bech32Address } from "@keplr-wallet/cosmos";
+import { Bech32Address } from "@keplr-wallet/cosmos"
 
 window.onload = main
 

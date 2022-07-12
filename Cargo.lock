@@ -392,6 +392,14 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "f3f6f92acf49d1b98f7a81226834412ada05458b7364277387724a237f062695"
 
 [[package]]
+name = "schema-contract"
+version = "0.1.0"
+dependencies = [
+ "fadroma",
+ "serde",
+]
+
+[[package]]
 name = "schemars"
 version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"

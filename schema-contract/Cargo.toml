@@ -1,0 +1,13 @@
+[package]
+name    = "schema-contract"
+version = "0.1.0"
+authors = []
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+path       = "schema-contract.rs"
+
+[dependencies]
+fadroma = { path = "../fadroma/crates/fadroma", features = ["storage"] }
+serde   = { version = "1.0.103", default-features = false, features = ["derive"] }
